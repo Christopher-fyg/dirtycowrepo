@@ -4,4 +4,4 @@ This wiki is open to edit by everyone who wishes to contribute to the research o
 
 A good place to start is in the [vulnerability details](VulnerabilityDetails) article.
 
-You can also see the proof of concepts [here](https://github.com/dirtycow/dirtycow.github.io/wiki/PoCs).
+You can also see the proof of concepts [here](PoCs).
