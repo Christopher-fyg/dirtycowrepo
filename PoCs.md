@@ -21,5 +21,5 @@ List of PoCs available
   * Usage: `use exploit/linux/local/dirtycow` and `run`
   * Description: Metasploit module based on the `cowroot` PoC.
 * https://github.com/scumjr/dirtycow-vdso
-  * Usage: `./dirtyvds0`
+  * Usage: `./0xdeadbeef`
   * Description: Gives the user root by patching the vDSO (**does not use** `/proc/self/mem`) escapes containers/SELinux doesn't need suid.
