@@ -10,7 +10,7 @@ List of PoCs available
   * Description: Gives the user root by patching libc's getuid call and invoking `su`.
 * https://github.com/dirtycow/dirtycow.github.io/blob/master/pokemon.c
   * Usage: `./d file content`
-  * Description: Allows user to write on files meant to be read only (does not use `/proc/self/mem`).
+  * Description: Allows user to write on files meant to be read only (**does not use** `/proc/self/mem`).
 * https://github.com/xlucas/dirtycow.cr
   * Usage: `dirtycow --target /path/to/root/file --string "string to write" --offset <offset_in_file>`
   * Description: Allows a user to write on files meant to be read only (uses `/proc/self/mem`).
