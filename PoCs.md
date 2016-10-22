@@ -23,3 +23,6 @@ List of PoCs available
 * https://github.com/scumjr/dirtycow-vdso
   * Usage: `./0xdeadbeef`
   * Description: Gives the user root by patching the vDSO (**does not use** `/proc/self/mem`) escapes containers/SELinux doesn't need suid.
+* https://gist.github.com/mak/c36136ccdbebf5ecfefd80c0f2ed6747
+  * Usage: `./c0w suid`
+  * Description: Gives the user root by injecting shellcode into a SUID file.
