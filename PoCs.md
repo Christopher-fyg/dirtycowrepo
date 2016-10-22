@@ -17,3 +17,6 @@ List of PoCs available
 * https://github.com/timwr/CVE-2016-5195
   * Usage: `dirtycow file content`
   * Description: Allows user to write on files meant to be read only (android).
+* https://github.com/rapid7/metasploit-framework/pull/7476
+  * Usage: `use exploit/linux/local/dirtycow` and `run`
+  * Description: Metasploit module based on the `cowroot` PoC.
