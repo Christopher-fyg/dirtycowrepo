@@ -11,7 +11,7 @@
 | [0xdeadbeef.c](https://github.com/scumjr/dirtycow-vdso) | `./0xdeadbeef` | vDSO-based root | PTRACE_POKEDATA |
 | [naughtyc0w.c](https://gist.github.com/mak/c36136ccdbebf5ecfefd80c0f2ed6747) | `./c0w suid` | SUID-based root | /proc/self/mem |
 | [c0w.c](https://gist.github.com/KrE80r/42f8629577db95782d5e4f609f437a54) | `./c0w` | SUID-based root | PTRACE_POKEDATA|
-| [dirty_passwd_adjust_cow.c](https://gist.github.com/ngaro/05e084ca638340723b309cd304be77b2) | `./dirty_passwd_adjust_cow` | current user becomes UID 0 | /proc/self/mem |
+| [dirty_passwd_adjust_cow.c](https://gist.github.com/ngaro/05e084ca638340723b309cd304be77b2) | `./a.out` | /etc/passwd based root | /proc/self/mem |
 
 ## List of PoCs
 * https://github.com/dirtycow/dirtycow.github.io/blob/master/dirtyc0w.c
@@ -34,4 +34,5 @@
   * Gives the user root by injecting shellcode into a SUID file.
 * https://gist.github.com/KrE80r/42f8629577db95782d5e4f609f437a54
   * Gives the user root by injecting shellcode into a SUID file using PTRACE_POKEDATA .
-
+* https://gist.github.com/ngaro/05e084ca638340723b309cd304be77b2
+  * Gives the user root by replacing /etc/passwd
