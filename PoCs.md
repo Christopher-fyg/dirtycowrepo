@@ -6,7 +6,7 @@
 | [dirtycow-mem.c](https://gist.github.com/scumjr/17d91f20f73157c722ba2aea702985d2) | `./dirtycow-mem` | libc-based root | /proc/self/mem |
 | [pokemon.c](https://github.com/dirtycow/dirtycow.github.io/blob/master/pokemon.c) | `./d file content` | Read-only write | PTRACE_POKEDATA |
 | [dirtycow.cr](https://github.com/xlucas/dirtycow.cr) | `dirtycow --target --string --offset` | Read-only write | /proc/self/mem |
-| [dirtyc0w.c](https://github.com/timwr/CVE-2016-5195) | `./dirtycow file content` | Read-only write | /proc/self/mem |
+| [dirtyc0w.c](https://github.com/timwr/CVE-2016-5195) | `./dirtycow file content` | Read-only write (Android) | /proc/self/mem |
 | [dirtycow.rb](https://github.com/rapid7/metasploit-framework/pull/7476) | `use exploit/linux/local/dirtycow` and `run` | SUID-based root | /proc/self/mem |
 | [0xdeadbeef.c](https://github.com/scumjr/dirtycow-vdso) | `./0xdeadbeef` | vDSO-based root | PTRACE_POKEDATA |
 | [naughtyc0w.c](https://gist.github.com/mak/c36136ccdbebf5ecfefd80c0f2ed6747) | `./c0w suid` | SUID-based root | /proc/self/mem |
@@ -38,5 +38,4 @@
 * https://gist.github.com/ngaro/05e084ca638340723b309cd304be77b2
   * Gives the user root by replacing /etc/passwd
 * https://gist.github.com/chriscz/f1aca56cf15cfb7793db0141c15718cd
-  * Allows user to write on files meant to be read only.
-  * Supports writing to multiple pages, not just the first 
+  * Allows user to write on files meant to be read only. Supports writing to multiple pages, not just the first 
