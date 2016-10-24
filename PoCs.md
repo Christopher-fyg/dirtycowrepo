@@ -12,7 +12,7 @@
 | [naughtyc0w.c](https://gist.github.com/mak/c36136ccdbebf5ecfefd80c0f2ed6747) | `./c0w suid` | SUID-based root | /proc/self/mem |
 | [c0w.c](https://gist.github.com/KrE80r/42f8629577db95782d5e4f609f437a54) | `./c0w` | SUID-based root | PTRACE_POKEDATA|
 | [dirty_pass[...].c](https://gist.github.com/ngaro/05e084ca638340723b309cd304be77b2) | `./dirty_passwd_adjust_cow` | /etc/passwd based root | /proc/self/mem |
-| [mucow.c](https://gist.github.com/chriscz/f1aca56cf15cfb7793db0141c15718cd) | `./mucow destination < payload.exe` | Read-only write (multi page support) | PTRACE_POKEDATA
+| [mucow.c](https://gist.github.com/chriscz/f1aca56cf15cfb7793db0141c15718cd) | `./mucow destination < payload.exe` | Read-only write (multi page) | PTRACE_POKEDATA
 
 ## List of PoCs
 * https://github.com/dirtycow/dirtycow.github.io/blob/master/dirtyc0w.c
