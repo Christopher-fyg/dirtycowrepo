@@ -14,6 +14,7 @@
 | [dirty_pass[...].c](https://gist.github.com/ngaro/05e084ca638340723b309cd304be77b2) | `./dirty_passwd_adjust_cow` | /etc/passwd based root | /proc/self/mem |
 | [mucow.c](https://gist.github.com/chriscz/f1aca56cf15cfb7793db0141c15718cd) | `./mucow destination < payload.exe` | Read-only write (multi page) | PTRACE_POKEDATA |
 | [cowpy.c](https://github.com/nowsecure/dirtycow) | `r2pm -i dirtycow` | Read-only write (radare2) | /proc/self/mem |
+| [dirtycow.fasm](https://github.com/sivizius/dirtycow.fasm) | `/dirtycow` | Read-only write | /proc/self/mem |
 
 ## List of PoCs
 * https://github.com/dirtycow/dirtycow.github.io/blob/master/dirtyc0w.c
@@ -41,4 +42,6 @@
 * https://gist.github.com/chriscz/f1aca56cf15cfb7793db0141c15718cd
   * Allows user to write on files meant to be read only. Supports writing to multiple pages, not just the first 
 * https://github.com/nowsecure/dirtycow
-  * Allow the user to write on files meant to be read only, implemented as a radare2 IO plugin.
+  * Allows the user to write on files meant to be read only, implemented as a radare2 IO plugin.
+* https://github.com/sivizius/dirtycow.fasm
+  * Allows the user to write on files meant to be read only, implementation for amd64 in flatassembly.
