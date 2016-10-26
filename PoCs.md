@@ -1,4 +1,6 @@
 ## Table of PoCs
+**Note**: if you experience crashes or locks take a look at [this](https://github.com/dirtycow/dirtycow.github.io/issues/25#issuecomment-255936948) fix.
+
 | Link | Usage | Description | Family |
 |---|---|---|---|---|---|---|
 | [dirtyc0w.c](https://github.com/dirtycow/dirtycow.github.io/blob/master/dirtyc0w.c) | `./dirtyc0w file content` | Read-only write | /proc/self/mem |
