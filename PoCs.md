@@ -1,5 +1,5 @@
 ## Table of PoCs
-**Note**: if you experience crashes or locks take a look at [this](https://github.com/dirtycow/dirtycow.github.io/issues/25#issuecomment-255936948) fix.
+**Note**: if you experience crashes or locks take a look at [this](https://github.com/dirtycow/dirtycow.github.io/issues/25#issuecomment-255852675) fix.
 
 | Link | Usage | Description | Family |
 |---|---|---|---|---|---|---|
