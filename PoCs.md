@@ -17,6 +17,7 @@
 | [mucow.c](https://gist.github.com/chriscz/f1aca56cf15cfb7793db0141c15718cd) | `./mucow destination < payload.exe` | Read-only write (multi page) | PTRACE_POKEDATA |
 | [cowpy.c](https://github.com/nowsecure/dirtycow) | `r2pm -i dirtycow` | Read-only write (radare2) | /proc/self/mem |
 | [dirtycow.fasm](https://github.com/sivizius/dirtycow.fasm) | `./main` | SUID-based root | /proc/self/mem |
+| [dcow.cpp](https://github.com/gbonacini/CVE-2016-5195) | `./dcow` | /etc/passwd based root | /proc/self/mem |
 
 ## List of PoCs
 * https://github.com/dirtycow/dirtycow.github.io/blob/master/dirtyc0w.c
@@ -47,3 +48,5 @@
   * Allows the user to write on files meant to be read only, implemented as a radare2 IO plugin.
 * https://github.com/sivizius/dirtycow.fasm
   * Gives the user root by injecting shellcode into a SUID file. implemented for amd64 in flatassembly.
+* https://github.com/gbonacini/CVE-2016-5195
+  * Gives the user root by replacing /etc/passwd
