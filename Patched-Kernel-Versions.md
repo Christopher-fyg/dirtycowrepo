@@ -17,3 +17,11 @@ Check your kernel version with `uname -r`
 
 ## RHEL/Centos
 Instructions for patching RHEL/Centos 6.x can be found [here](https://github.com/kcgthb/RHEL6.x-COW)
+
+## Gentoo
+
+Bug: https://bugs.gentoo.org/show_bug.cgi?id=597624
+
+* [sys-kernel/gentoo-sources-4.1.35](https://packages.gentoo.org/packages/sys-kernel/gentoo-sources)
+* sys-kernel/gentoo-sources-4.8.x - TBD
+* sys-kernel/gentoo-sources-3.x.x - TBD
