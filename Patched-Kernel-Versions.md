@@ -9,7 +9,7 @@ Check your kernel version with `uname -r`
 * 3.16.36-1+deb8u2 for Debian 8
 * 3.2.82-1 for Debian 7
 * 4.7.8-1 for Debian unstable
-*4.4.26-1 for ArchLinux (linux-lts package)
-*4.8.3 for ArchLinux (linux package)
+* 4.4.26-1 for ArchLinux (linux-lts package)
+* 4.8.3 for ArchLinux (linux package)
 
 Instructions for patching RHEL/Centos 6.x can be found [here](https://github.com/kcgthb/RHEL6.x-COW)
