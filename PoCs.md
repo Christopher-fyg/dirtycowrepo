@@ -18,6 +18,7 @@
 | [cowpy.c](https://github.com/nowsecure/dirtycow) | `r2pm -i dirtycow` | Read-only write (radare2) | /proc/self/mem |
 | [dirtycow.fasm](https://github.com/sivizius/dirtycow.fasm) | `./main` | SUID-based root | /proc/self/mem |
 | [dcow.cpp](https://github.com/gbonacini/CVE-2016-5195) | `./dcow` | /etc/passwd based root | /proc/self/mem |
+| [dirtyc0w.go](https://github.com/mengzhuo/dirty-cow-golang/blob/master/dirtyc0w.go) | `./dirtyc0w.go -f=file -c=content` | Read-only write | /proc/self/mem |
 
 ## List of PoCs
 * https://github.com/dirtycow/dirtycow.github.io/blob/master/dirtyc0w.c
