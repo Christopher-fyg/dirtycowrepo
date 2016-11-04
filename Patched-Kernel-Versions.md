@@ -25,3 +25,6 @@ Bug: https://bugs.gentoo.org/show_bug.cgi?id=597624
 * [sys-kernel/gentoo-sources-4.1.35](https://packages.gentoo.org/packages/sys-kernel/gentoo-sources)
 * sys-kernel/gentoo-sources-4.8.x - TBD
 * sys-kernel/gentoo-sources-3.x.x - TBD
+
+## Others
+* If you must stay in kernel 3.19 family, version 3.19.0-73.81 is a patched version and available for Ubuntu 14.04 from official repos. (update via `dist-upgrade`)
