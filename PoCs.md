@@ -21,6 +21,7 @@
 | [dirtyc0w.go](https://github.com/mengzhuo/dirty-cow-golang/blob/master/dirtyc0w.go) | `go run dirtyc0w.go -f=file -c=content` | Read-only write | /proc/self/mem |
 | [dirty.c](https://github.com/FireFart/dirtycow/blob/master/dirty.c) | `./dirty` | /etc/passwd based root | PTRACE_POKEDATA |
 | [Dirty COW Tester](https://github.com/sideeffect42/DirtyCOWTester) | `make && ./bin/dct` | Read-only write | /proc/self/mem |
+| [exploit.c](https://github.com/hyln9/VIKIROOT) | `./exploit` | vDSO-based root (Android) | PTRACE_POKEDATA |
 
 ## List of PoCs
 * https://github.com/dirtycow/dirtycow.github.io/blob/master/dirtyc0w.c
@@ -59,3 +60,5 @@
   * Generates a new password hash on the fly and modifies /etc/passwd automatically. Just run and pwn.
 * https://github.com/sideeffect42/DirtyCOWTester
   * Runs exploit and tells user if his system is vulnerable by writing to a read-only file (usually /tmp/dirtycow_test). Also has a --no-root option that does not require superuser.
+* https://github.com/hyln9/VIKIROOT
+  * Android M temporal root with SELinux bypass via the vDSO injection approach.
