@@ -2,7 +2,7 @@
 **Note**: if you experience crashes or locks take a look at [this](https://github.com/dirtycow/dirtycow.github.io/issues/25#issuecomment-255852675) fix.
 
 | Link | Usage | Description | Family |
-|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|
 | [dirtyc0w.c](https://github.com/dirtycow/dirtycow.github.io/blob/master/dirtyc0w.c) | `./dirtyc0w file content` | Read-only write | /proc/self/mem |
 | [cowroot.c](https://gist.github.com/rverton/e9d4ff65d703a9084e85fa9df083c679) | `./cowroot` | SUID-based root | /proc/self/mem |
 | [dirtycow-mem.c](https://gist.github.com/scumjr/17d91f20f73157c722ba2aea702985d2) | `./dirtycow-mem` | libc-based root | /proc/self/mem |
